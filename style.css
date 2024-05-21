@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --darkcyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --verydarkblue: hsl(212, 21%, 14%);
+    --darkgrayishblue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+
+
+button {
+    padding: 0;
+    border: none;
+    background: transparent;
+
+    font-family: inherit;
+}
+
+.fraunces {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2EAE2;
+}
+
+article {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.bg {
+    background-image: url(./images/image-product-desktop.jpg);
+    width: 300px;
+    height: 450px;
+    background-size: contain;
+    flex-shrink: 0;
+    /* width:100% ; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.category {
+    color: var(--darkgrayishblue);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 5px;
+}
+
+.title {
+    color: var(--verydarkblue);
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.info {
+    color: var(--darkgrayishblue);
+    margin-bottom: 29px;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+span.fraunces {
+    color: var(--darkcyan);
+    font-size: 32px;
+    line-height: 32px;
+    margin-right: 19px;
+}
+
+s.montserrat {
+    color: var(--darkgrayishblue);
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.content {
+    padding: 32px;
+}
+
+.content div {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+button.montserrat {
+    font-weight: 700;
+    background-color: var(--darkcyan);
+    color: var(--white);
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+
+}
